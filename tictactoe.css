@@ -1,0 +1,86 @@
+body
+{
+    background-image:url(https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-09.jpg);
+    background-size: cover;
+    font-family:'verdana', cursive;
+}
+
+table{
+    border-collapse: collapse;
+    border-spacing: 0mm;
+    padding:0mm;
+    margin: 10px auto;
+    background-color: rgb(86, 8, 117);
+    border-radius: 6.7mm;
+}
+
+table tr td {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    font-size: 35px;
+    text-align: center;
+}
+
+table tr td:hover{
+    background-color: rgb(165, 138, 168);
+    cursor:pointer;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+
+.but
+{
+    font-family: verdana;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(90, 14, 151);
+    color: rgb(230, 218, 231);
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    transform: translate(-50%,-50%);
+}
+
+.text
+{
+    font-family: verdana;
+    text-align: center;
+    top: 10%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    font-weight: bold;
+    color:rgb(90, 14, 151);
+    font-size: 60px;
+}
+
+.shift
+{
+    top: 50%;
+    left: 50%;
+    transform: translate(1%,100%);
+}
+
+.text1
+{
+    font-family: verdana;
+    text-decoration: wavy;
+    text-align: center;
+    top: 12%;
+    left: 50%;
+    transform: translate(-45%, 200%);
+    position: absolute;
+    font-weight: bold;
+    color: rgb(90, 14, 151);
+    font-size: 30px;
+}
+.but:hover
+{
+    color: rgb(90, 14, 151);
+    background-color: rgb(215, 194, 218);
+}
